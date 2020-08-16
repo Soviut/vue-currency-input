@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>API | Vue Currency Input</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    <link rel="icon" href="/vue-currency-input/favicon.png">
+    <meta name="description" content="Easy input of currency formatted numbers for Vue.js">
+    <link rel="preload" href="/vue-currency-input/assets/css/0.styles.e5107a33.css" as="style"><link rel="preload" href="/vue-currency-input/assets/js/app.d1ed4dc4.js" as="script"><link rel="preload" href="/vue-currency-input/assets/js/2.94017332.js" as="script"><link rel="preload" href="/vue-currency-input/assets/js/10.0f7c7c4e.js" as="script"><link rel="prefetch" href="/vue-currency-input/assets/js/11.8f33d2c4.js"><link rel="prefetch" href="/vue-currency-input/assets/js/12.d0510eea.js"><link rel="prefetch" href="/vue-currency-input/assets/js/13.db9f6310.js"><link rel="prefetch" href="/vue-currency-input/assets/js/3.bcf81838.js"><link rel="prefetch" href="/vue-currency-input/assets/js/4.ecabd10a.js"><link rel="prefetch" href="/vue-currency-input/assets/js/5.c920073d.js"><link rel="prefetch" href="/vue-currency-input/assets/js/6.3a063cf7.js"><link rel="prefetch" href="/vue-currency-input/assets/js/7.728b9019.js"><link rel="prefetch" href="/vue-currency-input/assets/js/8.20a1671e.js"><link rel="prefetch" href="/vue-currency-input/assets/js/9.54b5b7e6.js">
+    <link rel="stylesheet" href="/vue-currency-input/assets/css/0.styles.e5107a33.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/vue-currency-input/" class="home-link router-link-active"><!----> <span class="site-name">Vue Currency Input</span></a> <div class="links"><!----> <nav class="nav-links can-hide"><div class="nav-item"><a href="https://github.com/dm4t2/vue-currency-input/releases" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Release Notes
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <a href="https://github.com/dm4t2/vue-currency-input" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="https://github.com/dm4t2/vue-currency-input/releases" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Release Notes
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <a href="https://github.com/dm4t2/vue-currency-input" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><a href="/vue-currency-input/guide/" class="sidebar-link">Guide</a></li><li><a href="/vue-currency-input/config/" class="sidebar-link">Config Reference</a></li><li><a href="/vue-currency-input/playground/" class="sidebar-link">Playground</a></li><li><a href="/vue-currency-input/api/" aria-current="page" class="active sidebar-link">API</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/vue-currency-input/api/#getvalue" class="sidebar-link">getValue</a></li><li class="sidebar-sub-header"><a href="/vue-currency-input/api/#setvalue" class="sidebar-link">setValue</a></li></ul></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="api"><a href="#api" class="header-anchor">#</a> API</h1> <h2 id="getvalue"><a href="#getvalue" class="header-anchor">#</a> getValue</h2> <p>Returns the current number value of an input. This method is also exposed as Vue instance method <code>$ci.getValue</code> when <a href="/vue-currency-input/guide/#installation">installed as Vue plugin</a>.</p> <h4 id="arguments"><a href="#arguments" class="header-anchor">#</a> Arguments</h4> <table><thead><tr><th>Name</th> <th>Type</th> <th>Description</th></tr></thead> <tbody><tr><td><code>el</code></td> <td>HTMLInputElement</td> <td>The input element the <code>v-currency</code> directive is bound to.</td></tr></tbody></table> <div class="custom-block warning"><p class="custom-block-title">WARNING</p> <p>If you use <code>v-currency</code> on a Vue component (for example Vuetify's <code>v-text-field</code>), make sure the <code>el</code> argument points to underlying input element and <strong>not</strong> to the component's root element.</p></div> <h4 id="returns"><a href="#returns" class="header-anchor">#</a> Returns</h4> <p>The current number value or <code>null</code> if empty.</p> <h4 id="example"><a href="#example" class="header-anchor">#</a> Example</h4> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span>
+      <span class="token attr-name">ref</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>input<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">v-model</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>value<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">v-currency</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>options<span class="token punctuation">&quot;</span></span>
+    <span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Number value: {{ numberValue }}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">import</span> <span class="token punctuation">{</span> CurrencyDirective<span class="token punctuation">,</span> getValue <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'vue-currency-input'</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  directives<span class="token operator">:</span> <span class="token punctuation">{</span>
+    currency<span class="token operator">:</span> CurrencyDirective
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token function-variable function">data</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">(</span><span class="token punctuation">{</span>
+    value<span class="token operator">:</span> <span class="token string">'$1,234.50'</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  computed<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token function">numberValue</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> <span class="token function">getValue</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>$refs<span class="token punctuation">.</span>input<span class="token punctuation">)</span>
+      <span class="token comment">// OR using the instance method:</span>
+      <span class="token comment">// return this.$ci.getValue(this.$refs.input)</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h2 id="setvalue"><a href="#setvalue" class="header-anchor">#</a> setValue</h2> <p>Sets the value of an input programmatically. This method is also exposed as Vue instance method <code>$ci.setValue</code> when <a href="/vue-currency-input/guide/#installation">installed as Vue plugin</a>.</p> <h4 id="arguments-2"><a href="#arguments-2" class="header-anchor">#</a> Arguments</h4> <table><thead><tr><th>Name</th> <th>Type</th> <th>Description</th></tr></thead> <tbody><tr><td><code>el</code></td> <td>HTMLInputElement</td> <td>The input element the <code>v-currency</code> directive is bound to.</td></tr> <tr><td><code>value</code></td> <td>Number</td> <td>The number to be set.</td></tr></tbody></table> <div class="custom-block warning"><p class="custom-block-title">WARNING</p> <p>If you use <code>v-currency</code> on a Vue component (for example Vuetify's <code>v-text-field</code>), make sure the <code>el</code> argument points to underlying input element and <strong>not</strong> to the component's root element.</p></div> <h4 id="example-2"><a href="#example-2" class="header-anchor">#</a> Example</h4> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span>
+      <span class="token attr-name">ref</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>input<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">v-model</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>value<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">v-currency</span>
+    <span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">@click</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>onClick<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Set value to 100<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">import</span> <span class="token punctuation">{</span> CurrencyDirective<span class="token punctuation">,</span> setValue <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'vue-currency-input'</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  directives<span class="token operator">:</span> <span class="token punctuation">{</span>
+    currency<span class="token operator">:</span> CurrencyDirective
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token function-variable function">data</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">(</span><span class="token punctuation">{</span>
+    value<span class="token operator">:</span> <span class="token string">'$1,234.50'</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  methods<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token function">onClick</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token function">setValue</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>$refs<span class="token punctuation">.</span>input<span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">)</span>
+      <span class="token comment">// OR using the instance method:</span>
+      <span class="token comment">// this.$ci.setValue(this.$refs.input, 100)</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p><a href="https://codesandbox.io/s/vue-currency-input-set-value-programmatically-rv95r?file=/src/App.vue" target="_blank" rel="noopener noreferrer">Try it on CodeSandbox<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/vue-currency-input/playground/" class="prev">
+        Playground
+      </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/vue-currency-input/assets/js/app.d1ed4dc4.js" defer></script><script src="/vue-currency-input/assets/js/2.94017332.js" defer></script><script src="/vue-currency-input/assets/js/10.0f7c7c4e.js" defer></script>
+  </body>
+</html>
